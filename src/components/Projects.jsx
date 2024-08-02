@@ -5,7 +5,7 @@ import ReactJs from "./React";
 
 function Projects() {
   return (
-    <div className=" lg:px-16 md:px-10 px-6 bg-[#17262b] text-white py-16">
+    <div id="projects" className="lg:px-16 md:px-10 px-6 bg-[#17262b] text-white py-16">
       <h1 className="text-center text-white font-bold border-t-8  md:w-[20rem] w-[12rem] mx-auto pt-4 lg:text-5xl text-3xl mb-6 lg:mb-12">
         Projects
       </h1>
