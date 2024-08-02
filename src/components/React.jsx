@@ -79,11 +79,11 @@ function ReactJs() {
               className="w-full h-full block duration-300"
             />
             <p>
-              <a href="" className="py-2 px-4 border mb-2 border-blue-600 rounded-lg hover:bg-blue-600 hover:text-white">
+              <a href="https://github.com/kumardee78/portfoliio.git" className="py-2 px-4 border mb-2 border-blue-600 rounded-lg hover:bg-blue-600 hover:text-white">
                 View Code
               </a>
               <a
-                href=""
+                href="https://portfoliio-steel.vercel.app/"
                 className="py-2 px-4 border mb-2 border-blue-600 rounded-lg hover:bg-blue-600 hover:text-white"
               >
                 VIew live Project
