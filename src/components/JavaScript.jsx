@@ -36,11 +36,11 @@ function JavaScript() {
               className="w-full h-full block duration-300"
             />
             <p>
-              <a href="https://github.com/kumardee78/calculator.git" className="py-2 px-4 border mb-2 border-blue-600 rounded-lg hover:bg-blue-600 hover:text-white">
+              <a href="https://github.com/kumardee78/simple-calculator.git" className="py-2 px-4 border mb-2 border-blue-600 rounded-lg hover:bg-blue-600 hover:text-white">
                 View Code
               </a>
               <a
-                href="https://kumardee78.github.io/calculator/"
+                href="https://kumardee78.github.io/simple-calculator/"
                 className="py-2 px-4 border mb-2 border-blue-600 rounded-lg hover:bg-blue-600 hover:text-white"
               >
                 VIew live Project
