@@ -9,10 +9,10 @@ function Skills() {
   return (
     <>
       <div className="lg:px-16 md:px-10 bg-[#131F22] md:py-28 py-16" id="skils">
-        <h1 className="text-center text-5xl w-[12rem] mx-auto border-t-[0.5rem] pt-4 font-bold text-white">
+        <h1 className="text-center md:text-5xl text-4xl w-[12rem] mx-auto border-t-[0.5rem] pt-4 font-bold text-white">
           Skills
         </h1>
-        <p className="text-white text-center text-3xl py-12">
+        <p className="text-white text-center md:text-3xl text-2xl py-12 px-4">
           Here are some of my skills on which i have been working
         </p>
         <div className="flex justify-center items-center flex-wrap gap-6 mt-10 mb-10">

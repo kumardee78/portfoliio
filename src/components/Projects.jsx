@@ -9,14 +9,14 @@ function Projects() {
       <h1 className="text-center text-white font-bold border-t-8  md:w-[20rem] w-[12rem] mx-auto pt-4 md:text-5xl text-4xl mb-6 lg:mb-12">
         Projects
       </h1>
-      <p className="text-white text-center text-3xl py-12">
+      <p className="text-white text-center md:text-3xl text-2xl py-12">
         Here are some of my projects I worked on.
       </p>
       <Html />
       <JavaScript />
       <ReactJs />
 
-      <p className="text-white text-center text-3xl py-12">
+      <p className="text-white text-center md:text-3xl text-2xl py-12">
         Exciting new projects dropping soon – stay tuned!
       </p>
     </div>

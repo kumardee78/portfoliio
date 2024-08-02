@@ -2,7 +2,7 @@ import React from "react";
 
 function JavaScript() {
   return (
-    <div className="md:p-10">
+    <div className="md:p-10 mb-8">
       <h1 className="text-xl bg-[#131f22] text-gray-400 font-semibold py-4 md:px-10 px-4 text-center" >
         JavaScript
       </h1>
