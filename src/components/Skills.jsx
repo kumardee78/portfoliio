@@ -8,14 +8,14 @@ import { FaReact } from "react-icons/fa";
 function Skills() {
   return (
     <>
-      <div className="lg:px-16 md:px-10 bg-[#131F22] py-16" id="skils">
+      <div className="lg:px-16 md:px-10 bg-[#131F22] md:py-28 py-16" id="skils">
         <h1 className="text-center text-5xl w-[12rem] mx-auto border-t-[0.5rem] pt-4 font-bold text-white">
           Skills
         </h1>
         <p className="text-white text-center text-3xl py-12">
           Here are some of my skills on which i have been working
         </p>
-        <div className="flex justify-center items-center flex-wrap gap-6 mt-10">
+        <div className="flex justify-center items-center flex-wrap gap-6 mt-10 mb-10">
           <div className="rounded-md shadow-lg shadow-black bg-[#233023] hover:bg-yellow-500 hover:font-semibold duration-300 text-white w-[10rem] h-[10rem] text-center flex justify-center items-center">
             <div className="">
               <p className="flex justify-center text-7xl text-white mb-4">

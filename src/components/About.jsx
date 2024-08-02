@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div
-      className="md:flex lg:px-16 md:px-10 px-6 bg-[#17262b] text-white py-16 right relative overflow-hidden"
+      className="md:flex lg:px-16 md:px-10 px-6 bg-[#17262b] text-white md:py-32 py-16"
       id="about"
     >
     
