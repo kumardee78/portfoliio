@@ -15,7 +15,7 @@ function Header() {
   }
 
   return (
-    <div className="z-20 sticky top-0 bg-[#131f22] border">
+    <div className="z-20 sticky top-0 bg-[#131f22]">
       <div className=" flex items-center justify-between lg:px-16 px-8 py-4  text-white font-bold ">
         <h1 className=" lg:text-5xl text-4xl p-2 font-bold text-red-600">DK</h1>
         <nav className="md:block hidden md:flex justify-center items-center">

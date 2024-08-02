@@ -18,7 +18,7 @@ function Home() {
           <p className="my-8">
             <a
               href="#contact"
-              class=" text-2xl text-blue-600 hover:text-white hover:bg-blue-600 rounded-lg border border-blue-600 md:py-2 py-1 px-4"
+              class=" md:text-2xl text-blue-600 hover:text-white hover:bg-blue-600 rounded-lg border border-blue-600 md:py-2 py-1 px-4"
             >
               Contact
             </a>
