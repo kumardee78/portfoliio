@@ -1,25 +1,21 @@
 import React from "react";
-// import{BrowserRouter, Route, Routes} from "react-router-dom"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
-import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contacts";
-import Footer from "./components/Footer";
+import AllComponent from "./components/AllComponent";
+import JavascriptProjects from "./components/JavascriptProjects";
+import ReactProjects from "./components/ReactProjects";
 
 function App() {
   return (
     <>
-      <div className="">
-        <Header />
-        <Home />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
-      </div>
+      <BrowserRouter>
+      <Header/>
+        <Routes>
+          <Route path="/" element={<AllComponent />} />
+          <Route path="/javascriptproject" element={<JavascriptProjects />} />
+          <Route path="/reactproject" element={<ReactProjects/>} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

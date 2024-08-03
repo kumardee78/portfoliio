@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
-import Hambergur from "./Hambergur";
+import { FaBars } from "react-icons/fa";
 
 function Header() {
   const [isShown, setIsShown] = useState(false);
@@ -15,9 +14,9 @@ function Header() {
   }
 
   return (
-    <div className="z-20 sticky top-0 bg-[#131f22]">
-      <div className=" flex items-center justify-between lg:px-16 px-8 py-4  text-white font-bold ">
-        <h1 className=" lg:text-5xl text-4xl p-2 font-bold text-red-600">DK</h1>
+    <div className="bg-[#131f22]">
+      <div className=" flex items-center justify-between lg:px-16 px-8 py-4  text-white font-bold">
+        <h1 className=" lg:text-6xl text-5xl font-bold text-yellow-100">DK</h1>
         <nav className="md:block hidden md:flex justify-center items-center">
           <ul className="flex justify-center items-center gap-8 lg:text-2xl text-xl font-normal">
             <li>
@@ -30,7 +29,7 @@ function Header() {
             </li>
             <li>
               <a
-                href="#skils"
+                href="#skills"
                 className="hover:text-blue-500 hover:border-b hover:border-b-blue-500"
               >
                 Skills
@@ -51,12 +50,43 @@ function Header() {
             Github Profile
           </a>
         </p>
-        <div className="md:hidden visible text-2xl">
-          <GiHamburgerMenu onClick={handleToggleDiv} />
+        <div className="md:hidden visible text-2xl py-[0.3rem] px-[0.5rem] border">
+          <FaBars onClick={handleToggleDiv} />
         </div>
-        
       </div>
-      <Hambergur isShown={isShown} setIsShowm={setIsShown} />
+      <nav
+        className={
+          isShown
+            ? "block bg-transparent text-white text-center md:hidden  text-xl font-normal"
+            : "hidden"
+        }
+      >
+        <ul className="flex flex-col items-center justify-evenly">
+          <li className="hover:bg-[#17262b] py-1">
+            <a href="#about" className="hover:text-blue-500">
+              About
+            </a>
+          </li>
+          <li className="hover:bg-[#17262b] py-1">
+            <a href="#skils" className="hover:text-blue-500">
+              Skills
+            </a>
+          </li>
+          <li className="hover:bg-[#17262b] py-1">
+            <a href="#projects" className="hover:text-blue-500">
+              Projects
+            </a>
+           
+          </li> 
+          <li className="my-2"><a
+            href="https://github.com/kumardee78"
+            className="bg-blue-500 border border-blue-500 duration-200 px-2 py-1 text-white hover:bg-transparent hover:text-blue-500 "
+            target="_blank"
+          >
+            Github Profile
+          </a></li>
+        </ul>
+      </nav>
     </div>
   );
 }
