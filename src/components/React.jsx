@@ -42,13 +42,13 @@ function ReactJs() {
             />
             <p className="image-para">
               <a
-                href="https://github.com/kumardee78/food-delivery.git"
+                href="https://github.com/kumardee78/foodDelivery-App.git"
                 className="py-2 px-4 mb-2 rounded-lg bg-[#131f22]"
               >
                 View Code
               </a>
               <a
-                href="https://food-delivery-zeta-livid.vercel.app/"
+                href="https://food-delivery-app-psi-ruddy.vercel.app/"
                 className="py-2 px-4 mb-2 bg-[#131f22] rounded-lg "
               >
                 VIew live Project
