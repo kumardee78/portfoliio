@@ -31,27 +31,7 @@ function Html() {
           </div>
           
         </div>
-        <div className=" w-[20rem] h-[18rem] bg-[#131f22] rounded-lg my-4 shadow-lg shadow-black hover:scale-105 duration-300">
-          <div className="project rounded-lg h-full">
-            <img
-              src="pullup.jpg"
-              alt=""
-              className="w-full h-full block duration-300"
-            />
-            <p className="image-para">
-              <a href="https://github.com/kumardee78/gym-november-using-tailwind.git" className="py-2 px-4 mb-2 rounded-lg bg-[#131f22]">
-                View Code
-              </a>
-              <a
-                href="https://kumardee78.github.io/gym-november-using-tailwind/"
-                className="py-2 px-4 mb-2 bg-[#131f22] rounded-lg "
-              >
-                VIew live Project
-              </a>
-              <p className="text-center md:text-3xl text-2xl py-2">Gym</p>
-            </p>
-          </div>
-        </div>
+        
         <div className=" w-[20rem] h-[18rem] bg-[#131f22] rounded-lg my-4 shadow-lg shadow-black hover:scale-105 duration-300">
           <div className="project rounded-lg h-full">
             <img
