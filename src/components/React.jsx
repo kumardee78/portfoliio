@@ -10,32 +10,6 @@ function ReactJs() {
         <div className=" w-[20rem] h-[18rem] bg-[#131f22] rounded-lg my-4 shadow-lg shadow-black hover:scale-105 duration-300">
           <div className="project rounded-lg h-full">
             <img
-              src="todo.jpg"
-              alt=""
-              className="w-full h-full block duration-300"
-            />
-            <p className="image-para">
-              <a
-                href="https://github.com/kumardee78/to-do-app.git"
-                className="py-2 px-4 mb-2 rounded-lg bg-[#131f22]"
-              >
-                View Code
-              </a>
-              <a
-                href="https://to-do-app-five-amber.vercel.app/"
-                className="py-2 px-4 mb-2 bg-[#131f22] rounded-lg "
-              >
-                VIew live Project
-              </a>
-              <p className="text-center text-black md:text-3xl text-2xl py-2">
-                To-Do App
-              </p>
-            </p>
-          </div>
-        </div>
-        <div className=" w-[20rem] h-[18rem] bg-[#131f22] rounded-lg my-4 shadow-lg shadow-black hover:scale-105 duration-300">
-          <div className="project rounded-lg h-full">
-            <img
               src="FoodDeliveryimages.jpg"
               alt=""
               className="w-full h-full block duration-300"
@@ -53,7 +27,35 @@ function ReactJs() {
               >
                 VIew live Project
               </a>
-              <p className="text-center text-black md:text-3xl text-2xl py-2">Food-Delivery App</p>
+              <p className="text-center text-black md:text-3xl text-2xl py-2">
+                Food-Delivery App
+              </p>
+            </p>
+          </div>
+        </div>
+        <div className=" w-[20rem] h-[18rem] bg-[#131f22] rounded-lg my-4 shadow-lg shadow-black hover:scale-105 duration-300">
+          <div className="project rounded-lg h-full">
+            <img
+              src="shopping app.jpg"
+              alt=""
+              className="w-full h-full block duration-300"
+            />
+            <p className="image-para">
+              <a
+                href="https://github.com/kumardee78/shopping-app.git"
+                className="py-2 px-4 mb-2 rounded-lg bg-[#131f22]"
+              >
+                View Code
+              </a>
+              <a
+                href="https://shopping-app-five-zeta.vercel.app/"
+                className="py-2 px-4 mb-2 bg-[#131f22] rounded-lg "
+              >
+                VIew live Project
+              </a>
+              <p className="text-center text-black md:text-3xl text-2xl py-2">
+                Shopping App
+              </p>
             </p>
           </div>
         </div>
