@@ -12,7 +12,7 @@ function JavaScript() {
         JavaScript
       </h1>
       <div className="projects-div flex flex-wrap justify-center gap-6 items-center">
-        <div className=" w-[20rem] h-[18rem] bg-[#131f22] rounded-lg my-4 shadow-lg shadow-black hover:scale-105 duration-300">
+        {/* <div className=" w-[20rem] h-[18rem] bg-[#131f22] rounded-lg my-4 shadow-lg shadow-black hover:scale-105 duration-300">
           <div className="project rounded-lg h-full">
             <img
               src="download.jpg"
@@ -37,7 +37,7 @@ function JavaScript() {
               </p>
             </p>
           </div>
-        </div>
+        </div> */}
         <div className=" w-[20rem] h-[18rem] bg-[#131f22] rounded-lg my-4 shadow-lg shadow-black hover:scale-105 duration-300">
           <div className="project rounded-lg h-full">
             <img

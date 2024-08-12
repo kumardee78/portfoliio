@@ -36,7 +36,7 @@ function ReactJs() {
         <div className=" w-[20rem] h-[18rem] bg-[#131f22] rounded-lg my-4 shadow-lg shadow-black hover:scale-105 duration-300">
           <div className="project rounded-lg h-full">
             <img
-              src="shopping app.jpg"
+              src="shoping app.jpg"
               alt=""
               className="w-full h-full block duration-300"
             />
