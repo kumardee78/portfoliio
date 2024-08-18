@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="md:py-28 py-16  md:px-16 px-4 bg-[#131f22] text-white" id="contact"> 
       <h1 className="text-center py-2 text-5xl font-bold border-t-8 border-white w-[15rem] mx-auto">Contact</h1>
-      <p className="text-center py-6 text-2xl">
+      <p className="text-center py-6 mt-12 text-2xl">
         Feel free to reach out to me for any questions or opportunity!
       </p>
       <div className="bg-black md:w-[30rem] mx-auto text-white border-gray-600 p-6 rounded-lg shadow-lg shadow-black my-6 hover:scale-105 duration-300">

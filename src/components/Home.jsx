@@ -2,29 +2,29 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="bg-[#131f22]  md:py-36 py-16 md:px-12 md:bg-[url('DSC_3674.png')] bg-no-repeat bg-right bg-contain">
-      <div className="md:flex items-center w-full pb-6">
-        <div className="flex items-center justify-center mb-10 md:mb-0 md:hidden block px-4">
+    <div className="bg-[#131f22] flex items-center justify-center py-24 md:px-12">
+      <div className="w-full pb-6">
+        <div className="mb-10 px-4 flex items-center justify-center">
           <img
             src="DSC_3674.png"
             alt=""
-            className="w-full rounded-full  border-4 border-[#17262b]"
+            className="rounded-full border-4 border-[#17262b] w-[15rem]"
           />
         </div>
-        <div className="md:text-start text-center grow text-white md:pl-10">
-          <h3 className="text-3xl text-yellow-100 font-bold">
+        <div className="text-center text-white mt-3">
+          <h3 className="text-3xl text-yellow-200 font-bold">
             Hello! I'm
           </h3>
           <h1 className="lg:text-8xl text-7xl font-bold text-white">
-            Deepak Kumar
+            Deepak <span className="text-blue-500">Kumar</span>
           </h1>
           <p className="text-3xl md:mt-10 mt-6">
             - Frontend Developer
           </p>
-          <p className="my-8">
+          <p className="my-12">
             <a
               href="#contact"
-              class="text-xl text-yellow-100 hover:text-[#17262b] hover:bg-yellow-100 rounded-lg border border-yellow-100 md:py-2 py-1 px-4 duration-300"
+              class="text-2xl text-yellow-100 hover:text-[#17262b] hover:bg-yellow-100 border border-yellow-100 md:py-2 py-1 px-4 duration-300"
             >
               Contact
             </a>

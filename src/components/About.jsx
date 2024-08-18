@@ -29,9 +29,9 @@ function About() {
               <a
                 href="public/Copy of Deepak Kumar.pdf"
                 download
-                className="hover:scale-105 rounded-3xl hover:bg-gradient-to-l from-yellow-700 to-yellow-100 py-2 md:px-8 text-white lg:text-3xl text-xl px-4 duration-200 border hover:border-yellow-600"
+                className="hover:bg-gradient-to-l from-yellow-700 to-yellow-100 py-2 md:px-8 text-white hover:text-[#17262b] lg:text-3xl text-xl px-4 duration-200 border hover:border-yellow-600"
               >
-                Check resume
+                download resume
               </a>
             </p>
           </div>

@@ -14,9 +14,9 @@ function Header() {
   }
 
   return (
-    <div className="bg-[#131f22]">
-      <div className=" flex items-center justify-between lg:px-16 px-8 py-4  text-white font-bold">
-        <h1 className=" lg:text-6xl text-5xl font-bold text-yellow-100">DK</h1>
+    <div className="bg-[#131f22] lg:px-16 px-8 py-4">
+      <div className=" flex items-center justify-between   text-white font-bold">
+        <h1 className=" lg:text-6xl text-5xl font-bold text-yellow-100">DK.</h1>
         <nav className="md:block hidden md:flex justify-center items-center">
           <ul className="flex justify-center items-center gap-8 lg:text-2xl text-xl font-normal">
             <li>
@@ -57,38 +57,45 @@ function Header() {
       <nav
         className={
           isShown
-            ? "block bg-transparent text-white text-center md:hidden  text-xl font-normal"
+            ? "block text-white text-right  md:hidden text-xl font-normal"
             : "hidden"
         }
       >
-        <ul className="flex flex-col items-center justify-evenly">
-          <li className="hover:bg-[#17262b] py-1">
-            <a href="#about" className="hover:text-blue-500">
-              About
-            </a>
-          </li>
-          <li className="hover:bg-[#17262b] py-1">
-            <a href="#skils" className="hover:text-blue-500">
-              Skills
-            </a>
-          </li>
-          <li className="hover:bg-[#17262b] py-1">
-            <a href="#projects" className="hover:text-blue-500">
-              Projects
-            </a>
-           
-          </li> 
-          <li className="my-2"><a
-            href="https://github.com/kumardee78"
-            className="bg-blue-500 border border-blue-500 duration-200 px-2 py-1 text-white hover:bg-transparent hover:text-blue-500 "
-            target="_blank"
-          >
-            Github Profile
-          </a></li>
-        </ul>
+        <a
+          href="#about"
+          className="hover:text-blue-500 hover:bg-[#17262b] py-3 block"
+        >
+          About
+        </a>
+        <a
+          href="#skils"
+          className="hover:text-blue-500 hover:bg-[#17262b] py-3 block"
+        >
+          Skills
+        </a>
+        <a
+          href="#projects"
+          className="hover:text-blue-500 hover:bg-[#17262b] py-3 mb-4 block"
+        >
+          Projects
+        </a>
+        <a
+          href="https://github.com/kumardee78"
+          className="bg-blue-500 border border-blue-500 duration-200 px-2 py-1 text-white hover:bg-transparent hover:text-blue-500 "
+          target="_blank"
+        >
+          Github Profile
+        </a>
       </nav>
     </div>
   );
 }
 
 export default Header;
+
+<ul className="flex flex-col items-center justify-evenly">
+  <li className="hover:bg-[#17262b] py-3"></li>
+  <li className=""></li>
+  <li className=""></li>
+  <li className="my-2"></li>
+</ul>;
