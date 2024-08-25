@@ -68,7 +68,7 @@ function Header() {
           About
         </a>
         <a
-          href="#skils"
+          href="#skills"
           className="hover:text-blue-500 hover:bg-[#17262b] py-3 block"
         >
           Skills
@@ -90,12 +90,5 @@ function Header() {
     </div>
   );
 }
-
 export default Header;
 
-<ul className="flex flex-col items-center justify-evenly">
-  <li className="hover:bg-[#17262b] py-3"></li>
-  <li className=""></li>
-  <li className=""></li>
-  <li className="my-2"></li>
-</ul>;

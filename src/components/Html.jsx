@@ -3,7 +3,7 @@ import "../App.css";
 
 function Html() {
   return (
-    <div className="md:px-10 mb-8 rounded-lg bg-[#131f22] py-6">
+    <div className="md:px-10 mb-8 rounded-lg py-6">
       <h1 className="text-xl bg-[#131f22] text-gray-400 font-semibold py-4 md:px-10 px-2 text-center">
         Html, Css and TailwindCSS
       </h1>
