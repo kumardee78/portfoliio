@@ -7,10 +7,10 @@ function About() {
       id="about"
     >
       <div className="lg:px-10 md:px-6 text-justify lg:text-2xl text-xl md:w-[65%] text-gray-400 grow">
-        <h1 className="text-center text-white font-bold border-t-8  md:w-[20rem] w-[12rem] mx-auto pt-4 lg:text-5xl text-3xl mb-6 lg:mb-12">
+        <h1 className="text-center text-white font-bold border-t-8  md:w-[20rem] w-[12rem] mx-auto pt-4 lg:text-5xl text-3xl mb-6">
           About Me
         </h1>
-        <div className="md:w-[70%] mx-auto flex items-center xl:py-40 lg:py-20 py-12">
+        <div className="md:w-[70%] mx-auto flex items-center lg:py-20 py-12">
           <div className="w-full">
             <p className="pt-4">
               Hi, I'm Deepak Kumar, a passionate front-end developer with a

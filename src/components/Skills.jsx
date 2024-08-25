@@ -15,7 +15,7 @@ function Skills() {
         <p className="text-white text-center md:text-3xl text-2xl py-12 px-4">
           Here are some of my skills on which i have been working
         </p>
-        <div className="flex justify-center items-center flex-wrap gap-6 mt-10 mb-10">
+        <div className="flex justify-center items-center flex-wrap gap-3 mt-10 mb-10 px-1">
           <div className="rounded-md shadow-lg shadow-black bg-[#17262b] hover:bg-[#131f29] hover:scale-105 font-semibold duration-300 text-white w-[10rem] h-[10rem] text-center flex justify-center items-center">
             <div>
               <p className="flex justify-center text-7xl text-white mb-4">
