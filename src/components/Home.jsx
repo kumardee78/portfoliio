@@ -12,13 +12,13 @@ function Home() {
           />
         </div>
         <div className="text-center text-white mt-3">
-          <h3 className="text-3xl text-yellow-200 font-bold">
+          <h3 className="md:text-3xl text-xl text-yellow-200 font-bold">
             Hello! I'm
           </h3>
-          <h1 className="lg:text-8xl text-7xl font-bold text-white">
+          <h1 className="md:text-8xl text-5xl font-bold text-white">
             Deepak <span className="text-blue-500">Kumar</span>
           </h1>
-          <p className="text-3xl md:mt-10 mt-6">
+          <p className="md:text-3xl text-xl md:mt-10 mt-6">
             - Frontend Developer
           </p>
           <p className="my-12">
