@@ -1,6 +1,19 @@
 import React from "react";
-
+import Pdf from "./../../public/Copy of Deepak Kumar.pdf"
 function About() {
+
+  const handleDownloadCV = () => {
+    console.log("hlo");
+    
+    const link = document.createElement("a");
+    link.href = Pdf;
+    link.setAttribute("download", "Copy of Deepak Kumar.pdf");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    console.log(link);
+  };
+
   return (
     <div
       className="md:flex lg:px-16 md:px-10 px-6 bg-[#17262b] text-white md:py-32 py-16"
@@ -27,8 +40,8 @@ function About() {
             </p>
             <p className="text-center">
               <a
-                href="public/Copy of Deepak Kumar.pdf"
-                download
+                // href=""
+                onClick={handleDownloadCV}
                 className="hover:bg-gradient-to-l from-yellow-700 to-yellow-100 py-2 md:px-8 text-white hover:text-[#17262b] lg:text-3xl text-xl px-4 duration-200 border hover:border-yellow-600"
               >
                 download resume
