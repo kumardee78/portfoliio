@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from "./../../public/Copy of Deepak Kumar.pdf"
+import Pdf from "../assets/DeepakResume.pdf"
 function About() {
 
   const handleDownloadCV = () => {
@@ -7,7 +7,7 @@ function About() {
     
     const link = document.createElement("a");
     link.href = Pdf;
-    link.setAttribute("download", "Copy of Deepak Kumar.pdf");
+    link.setAttribute("download", "DeepakResume.pdf");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -40,7 +40,6 @@ function About() {
             </p>
             <p className="text-center">
               <a
-                // href=""
                 onClick={handleDownloadCV}
                 className="hover:bg-gradient-to-l from-yellow-700 to-yellow-100 py-2 md:px-8 text-white hover:text-[#17262b] lg:text-3xl text-xl px-4 duration-200 border hover:border-yellow-600"
               >
