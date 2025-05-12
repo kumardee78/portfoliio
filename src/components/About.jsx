@@ -1,13 +1,11 @@
 import React from "react";
-import Pdf from "../assets/DeepakResume.pdf"
+import Pdf from "../assets/deepak.pdf"
 function About() {
 
   const handleDownloadCV = () => {
-    console.log("hlo");
-    
     const link = document.createElement("a");
     link.href = Pdf;
-    link.setAttribute("download", "DeepakResume.pdf");
+    link.setAttribute("download", "deepak.pdf");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
